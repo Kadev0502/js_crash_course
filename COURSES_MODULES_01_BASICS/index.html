@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <meta
+            http-equiv="X-UA-Compatible"
+            content="ie=edge"
+    >
+    <title >Document</title >
+</head >
+<body >
+<h1>MODULE 1 : JAVASCRIPT BASICS</h1>
+<p id="someText">lorem</p >
+
+<script>
+ /* **************************************** //
+                JSON in JS
+// **************************************** */
+let students=`[
+    {
+        "name" : "usher",
+        "age"   : 37,
+        "height": 174
+    },
+    {
+        "name" : "kadio",
+        "age"   : 45,
+        "height": 170
+    }
+]`
+console.log (JSON.parse(students));
+console.log (JSON.parse(students)[0]);
+console.log (JSON.parse(students)[1].age);
+</script>
+<script src="home.js"></script >
+</body >
+</html >
+
+
